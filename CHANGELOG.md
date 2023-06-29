@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Mxxi97/pubg-api-models/compare/v1.0.0...v1.1.0) (2023-06-29)
+
+
+### Features
+
+* matches ([349da66](https://github.com/Mxxi97/pubg-api-models/commit/349da66bb573e5544a6052d011acbb1b6521de19))
+
 # 1.0.0 (2023-06-29)
 
 
