@@ -23,7 +23,7 @@ class Player {
       data: any[];
     };
     matches: {
-      data: Match[];
+      data: MatchList[];
     };
   };
   links: {
@@ -35,7 +35,7 @@ class Player {
     type: string,
     id: string,
     attributes: PlayerAttributes,
-    relationships: { assets: { data: any[] }; matches: { data: Match[] } },
+    relationships: { assets: { data: any[] }; matches: { data: MatchList[] } },
     links: { self: string; schema: string },
   ) {
     this.type = type;
@@ -74,7 +74,7 @@ class PlayerAttributes {
   }
 }
 
-class Match {
+class MatchList {
   type: string;
   id: string;
 
@@ -84,4 +84,4 @@ class Match {
   }
 }
 
-export { PlayerData, Player, PlayerAttributes, Match };
+export { PlayerData, Player, PlayerAttributes, MatchList };
